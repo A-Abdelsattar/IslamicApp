@@ -5,6 +5,7 @@ class PrayerTime {
 
   PrayerTime({this.code, this.status, this.data});
 
+
   PrayerTime.fromJson(Map<String, dynamic> json) {
     code = json['code'];
     status = json['status'];

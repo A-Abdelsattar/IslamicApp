@@ -49,6 +49,9 @@ dependencies:
   flutter_countdown_timer: ^4.1.0
   quiver: ^3.2.1
 
+  audioplayers: ^0.20.1
+
+
 
 dev_dependencies:
   flutter_test:
@@ -73,6 +76,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/sound/019--1.mp3
 
   # To add assets to your application, add an assets section, like this:
   # assets:
